@@ -1,0 +1,10 @@
+m0 = int(input("Enter marks of student number 0: "))
+m1 = int(input("Enter marks of student number 1: "))
+m2 = int(input("Enter marks of student number 2: "))
+m3 = int(input("Enter marks of student number 3: "))
+m4 = int(input("Enter marks of student number 4: "))
+m5 = int(input("Enter marks of student number 5: "))
+markList = [m0, m1, m2, m3, m4, m5]
+print("Marks of Six students: ", markList)
+markList.sort()
+print("After sorting: ", markList)
